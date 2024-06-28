@@ -55,3 +55,17 @@
 27. [**`System`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/27.%20System.md): 시스템 관련 기능을 제공. 표준 입력, 출력, 오류 스트림과 시스템 속성, 환경 변수 등을 다룸.
 
 28. [**`Exception`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/28.%20Exception.md): 예외 처리를 위한 기본 클래스. 다양한 예외 상황을 표현하고 처리할 수 있음.
+
+29. [**`Statement`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/29.%20Statement.md): SQL 쿼리를 실행할 때 사용하는 인터페이스. PreparedStatement와 달리 쿼리 파라미터를 직접 설정할 수 없지만, 단순한 쿼리 실행에는 유용함.
+
+30. [**`CallableStatement`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/30.%20CallableStatement.md): 저장 프로시저를 호출할 때 사용하는 인터페이스. 복잡한 로직을 데이터베이스에 캡슐화하여 호출할 수 있음.
+
+31. [**`DatabaseMetaData`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/31.%20DatabaseMetaData.md): 데이터베이스의 메타데이터를 제공하는 인터페이스. 데이터베이스에 대한 정보(예: 테이블 목록, 컬럼 정보)를 얻을 수 있음.
+
+32. [**`ResultSetMetaData`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/32.%20ResultSetMetaData.md): ResultSet의 메타데이터를 제공하는 인터페이스임. 결과 집합의 컬럼 정보(예: 컬럼 이름, 타입)를 얻을 수 있음.
+
+33. [**`DataSource`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/33.%20DataSource.md): 데이터베이스 연결 풀링을 관리하는 인터페이스. JNDI를 통해 데이터베이스 연결을 설정하고 관리
+
+34. [**`PreparedStatement`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/34.%20PreparedStatement.md): Java JDBC API에서 SQL 쿼리를 안전하고 효율적으로 실행하기 위한 중요한 도구. 미리 컴파일된 SQL 문을 사용하여 성능을 향상시키고, 파라미터화를 통해 SQL 인젝션 공격을 방지
+
+35. [**`ResultSet`**](https://github.com/cherrycoder9/syntax-archive/blob/main/Java/Method/35.%20ResultSet.md): Java JDBC API에서 데이터베이스 쿼리 결과를 표현하고 처리하는 핵심 컴포넌트. 커서 기반의 결과 집합 탐색, 다양한 데이터 타입 지원, 스크롤 가능성, 그리고 동시성 옵션을 제공
